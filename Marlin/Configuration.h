@@ -384,7 +384,7 @@
 // shouldn't use bed PID until someone else verifies your hardware works.
 // If this is enabled, find your own PID constants below.
 
-//#define PIDTEMPBED
+#define PIDTEMPBED
 
 //#define BED_LIMIT_SWITCHING
 

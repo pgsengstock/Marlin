@@ -398,11 +398,16 @@
 
   //#define PID_BED_DEBUG // Sends debug data to the serial port.
 
+  //D-Bot 300x200 12V Bed into borosilicate - PGS 
+  #define DEFAULT_bedKp 300.88
+  #define DEFAULT_bedKi 39.07
+  #define DEFAULT_bedKd 579.23
+
   //120V 250W silicone heater into 4mm borosilicate (MendelMax 1.5+)
   //from FOPDT model - kp=.39 Tp=405 Tdead=66, Tc set to 79.2, aggressive factor of .15 (vs .1, 1, 10)
-  #define  DEFAULT_bedKp 398.58
-  #define  DEFAULT_bedKi 73.71
-  #define  DEFAULT_bedKd 538.78
+  //#define  DEFAULT_bedKp 398.58
+  //#define  DEFAULT_bedKi 73.71
+  //#define  DEFAULT_bedKd 538.78
 
   //120V 250W silicone heater into 4mm borosilicate (MendelMax 1.5+)
   //from pidautotune
